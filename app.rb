@@ -25,7 +25,5 @@ get '/chewing_gum' do
 end
 
 get '/cat' do
-  "<div style='border: 5px; border-style: dotted; border-color: red; width: 455px'>
-    <img src='http://bit.ly/1eze8aE'>
-  </div>"
+  erb(:index)
 end
