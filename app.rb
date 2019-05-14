@@ -31,7 +31,7 @@ end
 
 get '/named-cat' do
   p params[:name]
-  @names = params[:name]
+  @name = params[:name]
   erb(:index)
 end
 
